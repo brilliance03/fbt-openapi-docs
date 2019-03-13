@@ -1,0 +1,89 @@
+{
+    "root": ".",
+    "structure": {
+        "readme": "README.md"
+    },
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "title": "分贝通开放平台",
+    "description": "分贝通开放平台使用介绍",
+    "author": "北京分贝金服科技有限公司",
+    "language": "zh-hans",
+    "gitbook": ">=3.0.0",
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-sharing",
+        "search-plus",
+        "-highlight",
+        "-ace",
+        "prism",
+        "prism-themes",
+        "advanced-emoji",
+        "emphasize",
+        "splitter",
+        "mermaid-gb3",
+        "puml",
+        "graph",
+        "chart",
+        "expandable-chapters-small",
+        "sectionx",
+        "simple-page-toc",
+        "anchor-navigation-ex",
+        "copy-code-button",
+        "alerts",
+        "terminal",
+        "tbfed-pagefooter",
+        "-theme-api"
+    ],
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-okaidia.css"
+            ],
+            "ignore": [
+                "mermaid",
+                "eval-js"
+              ]
+        },
+        "sectionx": {
+            "tag": "b"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "showGoTop": true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "terminal": {
+            "copyButtons": true,
+            "fade": false,
+            "style": "flat"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright ©2015-2019 北京分贝金服科技有限公司",
+            "modify_label": "文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
